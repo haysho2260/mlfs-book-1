@@ -24,9 +24,9 @@ def connect_to_hopsworks():
     # Retrieve the model registry
     mr = project.get_model_registry()
 
-    # Retrieve the 'air_qual_fv' feature view
+    # Retrieve the 'air_quality_fv' feature view
     feature_view = fs.get_feature_view(
-        name="air_qual_fv",
+        name="air_quality_fv",
         version=1,
     )
 

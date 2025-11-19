@@ -282,7 +282,7 @@ def purge_project(proj):
     mr = proj.get_model_registry()
 
     # Delete Feature Views before deleting the feature groups
-    delete_feature_views(fs, "air_qual_fv")
+    delete_feature_views(fs, "air_quality_fv")
 
     # Delete ALL Feature Groups
     delete_feature_groups(fs, "air_quality")
